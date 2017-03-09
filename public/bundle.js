@@ -1526,7 +1526,7 @@
 /* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar About = function About(props) {\n  return React.createElement(\n    'h3',\n    null,\n    'About Component'\n  );\n};\n\nmodule.exports = About;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/components/About.jsx\n// module id = 247\n// module chunks = 0\n//# sourceURL=webpack:///./app/components/About.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar About = function About(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(\n      'h3',\n      null,\n      'About'\n    ),\n    React.createElement(\n      'p',\n      null,\n      'This is simple React application from \\'The Complete React Web App Developer Course\\' by Andrew Mead'\n    )\n  );\n};\n\nmodule.exports = About;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/components/About.jsx\n// module id = 247\n// module chunks = 0\n//# sourceURL=webpack:///./app/components/About.jsx?");
 
 /***/ },
 /* 248 */
